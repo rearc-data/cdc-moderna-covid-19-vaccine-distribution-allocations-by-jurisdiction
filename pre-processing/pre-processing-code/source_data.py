@@ -9,7 +9,7 @@ from boto3.s3.transfer import TransferConfig
 from io import BytesIO
 
 def source_dataset():
-    source_dataset_url = "hhttps://data.cdc.gov/resource/b7pe-5nws.csv"
+    source_dataset_url = "https://data.cdc.gov/resource/b7pe-5nws.csv"
     
     response = None
     retries = 5
